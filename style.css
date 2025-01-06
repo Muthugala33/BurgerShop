@@ -1,0 +1,17 @@
+.card {
+    text-align: center; /* Centers all text and inline elements in the card */
+}
+
+.order-btn {
+
+    display: inline-block; /* Ensures the button behaves like an inline element */
+    margin: 10px auto; /* Adds space and centers vertically */
+    
+}
+
+.nav1{
+
+    color: aliceblue;
+    background-color: black;
+
+}

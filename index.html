@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Of Burgers</title>   
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="app.js">
+
+<body style="background-color: rgba(255, 255, 255, 0.79);">
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Profile</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Order Now
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Burgers</a></li>
+                  <li><a class="dropdown-item" href="#">Fries</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Pasta</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h1 style="text-align: center; color: #0a0094; font-family: fantasy; font-size: 60px;">King Of Burgers</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100" >
+                <img height="650" src="img/burger.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Bun & Sub Delight: Your Ultimate Flavor Guide!</h5>
+                    <p class="card-text">Savor the juiciness of perfectly grilled burgers! Every bite is packed with flavor and pure satisfaction.  </div>
+                <button class="order-btn" style="color: azure; background-color: black;">Order Now</button>
+                <div class="card-footer">
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img height="650" src="img/fries.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Freshly Fried: The Fries Lovers' Delight</h5>
+                    <p class="card-text">Discover the crispy perfection of golden fries! Every bite is a delightful crunch that satisfies your cravings.</p>
+                </div>
+                <button class="order-btn" style="color: azure; background-color: black;">Order Now</button>
+                <div class="card-footer">
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img height="650" src="img/pasta.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Perfectly Plated: The Pasta Lovers' Collection</h5>
+                    <p class="card-text">
+                        A delightful collection of pasta dishes, crafted to satisfy every pasta lover's craving.</p>
+                </div>
+                <button class="order-btn" style="color: azure; background-color: black;">Order Now</button>
+
+                <div class="card-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
